@@ -57,6 +57,19 @@ body {
   background-color: var(--bg-cards);
 }
 
+.projeto-1 h3 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.projeto-1 span {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+}
+
 .projeto-2 {
   width: 50%;
   display: flex;
@@ -69,9 +82,21 @@ body {
   background-color: var(--bg-cards);
 }
 
+.projeto-2 h3 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.projeto-2 span {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+}
+
 .technologies {
   display: flex;
-  flex-wrap: wrap-reverse;
   padding: 10px;
   border: 1px;
   border-radius: 20px;
@@ -89,11 +114,14 @@ body {
 .titulo-publicacoes {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   padding: 10px;
   border: 1px;
   border-radius: 20px;
   height: 86px;
+
+
   margin-top: 40px;
   margin-right: 40px;
   margin-left: 600px;
@@ -176,6 +204,12 @@ img.avatar {
 .infos ul {
   display: inline-block;
   list-style: none;
+}
+
+.infos .infos-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
 }
 
 .education {
