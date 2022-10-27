@@ -37,6 +37,10 @@ body {
   background-color: var(--bg-cards);
 }
 
+.cabecalho a {
+  color: var(--text-color);
+}
+
 .conteudo-principal .projetos {
   display: flex;
   flex-direction: row;
@@ -258,6 +262,10 @@ img.avatar {
   display: flex;
   gap: 16px;
   align-items: center;
+}
+
+.conteudo-secundario .infos .infos-ul li a {
+  color: var(--text-color);
 }
 
 .conteudo-secundario .education {
