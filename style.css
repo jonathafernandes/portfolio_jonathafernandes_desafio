@@ -50,6 +50,9 @@ body {
   margin-left: 500px;
   gap: 30px;
 }
+.conteudo-principal .projetos a {
+  color: var(--text-color);
+}
 
 .conteudo-principal .projeto-1 {
   width: 50%;
