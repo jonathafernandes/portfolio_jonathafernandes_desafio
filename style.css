@@ -18,6 +18,8 @@ body {
   font-size: 90%;
   background-color: #22212c;
   color: var(--text-color);
+
+  position: absolute;
 }
 
 .cabecalho {
@@ -190,7 +192,7 @@ body {
 .conteudo-secundario {
   width: 15%;
   height: 100%;
-  position:absolute;
+  position: absolute;
   left: 0;
   top: 0;
 }
