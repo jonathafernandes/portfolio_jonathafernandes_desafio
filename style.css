@@ -9,6 +9,7 @@
 
 html {
   --text-color: #837e9f;
+  --text-color-2: #c8c5cc;
   --bg-cards: #302f3d;
   --bg-techs: #cb92b1;
 }
@@ -41,6 +42,11 @@ body {
 
 .cabecalho a {
   color: var(--text-color);
+  transition: text 900ms;
+}
+
+.cabecalho a:hover {
+  color: var(--text-color-2);
 }
 
 .conteudo-principal .projetos {
@@ -54,6 +60,11 @@ body {
 }
 .conteudo-principal .projetos a {
   color: var(--text-color);
+  transition: text 900ms;
+}
+
+.conteudo-principal .projetos a:hover {
+  color: var(--text-color-2);
 }
 
 .conteudo-principal .projeto-1 {
@@ -189,6 +200,36 @@ body {
   background-color: var(--bg-cards);
 }
 
+.conteudo-principal .publicacoes img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin-top: 21px;
+}
+
+.conteudo-principal .publicacoes-conteudo {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.conteudo-principal .publicacoes-conteudo p {
+  margin-top: 10px;
+  margin-left: 65px;
+  color: var(--text-color);
+}
+
+.conteudo-principal .publicacoes-conteudo p .publicacao-nome {
+  font-weight: bold;
+  font-size: 100%;
+  opacity: 1;
+}
+
+.conteudo-principal .publicacoes-conteudo p span {
+  font-size: 85%;
+  opacity: 0.5;
+}
+
 .conteudo-secundario {
   width: 15%;
   height: 100%;
@@ -271,6 +312,11 @@ img.avatar {
 
 .conteudo-secundario .infos .infos-ul li a {
   color: var(--text-color);
+  transition: text 900ms;
+}
+
+.conteudo-secundario .infos .infos-ul li a:hover {
+  color: var(--text-color-2);
 }
 
 .conteudo-secundario .education {
