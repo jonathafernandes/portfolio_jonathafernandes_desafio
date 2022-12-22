@@ -236,6 +236,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
+  margin-bottom: 0;
 }
 
 img {
@@ -343,4 +344,158 @@ img.avatar {
 
 .conteudo-secundario .education ul li {
   margin-top: 10px;
+}
+
+@media (max-width: 690px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  .conteudo-principal {
+    width: 15%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 0;
+  }
+
+  .cabecalho {
+    display: block;
+    border: 1px;
+    border-radius: 20px;
+  
+    width: 348px;
+    left: 40px;
+    top: 362px;
+    margin-top: 1210px;
+    margin-right: 40px;
+    margin-left: 60px;
+  
+    background-color: var(--bg-cards);
+  }
+
+  .conteudo-principal .projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: 1px;
+    border-radius: 20px;
+  
+    width: 348px;
+    height: 348px;
+    left: 40px;
+    top: 362px;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 100px;
+  
+    background-color: #22212c;
+  }
+
+  .conteudo-principal .projetos .projeto-1 {
+    border: 1px;
+    border-radius: 20px;
+  
+    width: 348px;
+    height: 348px;
+    left: 40px;
+    top: 362px;
+    margin-right: 40px;
+    margin-left: 60px;
+  
+    background-color: var(--bg-cards);
+  }
+
+  .conteudo-principal .projetos .projeto-2 {
+    border: 1px;
+    border-radius: 20px;
+  
+    width: 348px;
+    height: 348px;
+    left: 40px;
+    top: 362px;
+    margin-right: 40px;
+    margin-left: 60px;
+  
+    background-color: var(--bg-cards);
+  }
+
+  .conteudo-principal .titulo-technologies {
+    align-items: center;
+    border: 1px;
+    border-radius: 20px;
+  
+    width: 348px;
+    left: 40px;
+    top: 362px;
+    margin-right: 40px;
+    margin-left: 60px;
+  
+    background-color: var(--bg-cards);
+  }
+
+  .conteudo-principal .technologies {
+    border: 1px;
+    border-radius: 20px;
+  
+    width: 348px;
+    height: 348px;
+    left: 40px;
+    top: 362px;
+    margin-right: 40px;
+    margin-left: 60px;
+  
+    background-color: var(--bg-cards);
+  }
+
+  .conteudo-principal .technologies ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .conteudo-principal .titulo-publicacoes {
+    border: 1px;
+    border-radius: 20px;
+  
+    width: 348px;
+    left: 40px;
+    top: 362px;
+    margin-right: 40px;
+    margin-left: 60px;
+  
+    background-color: var(--bg-cards);
+  }
+
+  .conteudo-principal .publicacoes {
+    display: flex;
+    border: 1px;
+    border-radius: 20px;
+  
+    width: 348px;
+    height: 348px;
+    left: 40px;
+    top: 362px;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+  
+    background-color: var(--bg-cards);
+  }
+
+  .conteudo-principal .publicacoes img {
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;;
+  }
+  
+  .conteudo-principal .publicacoes-conteudo {
+    display: block;
+    text-align: right;
+  }
 }
