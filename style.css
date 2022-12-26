@@ -347,11 +347,8 @@ img.avatar {
 }
 
 @media (max-width: 690px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  body {
+    padding: auto;
   }
 
   .conteudo-principal {
