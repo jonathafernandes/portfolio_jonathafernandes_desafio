@@ -25,8 +25,8 @@ body {
   display: flex;
   justify-content: center;
   gap: 45px;
-  margin: 40px 0 40px 0;
-  width: 100vw;
+  margin: 50px 0 40px 5%;
+  max-width: 90%;
 }
 
 .cabecalho {
@@ -216,7 +216,7 @@ img.avatar {
   padding: 20px;
   border-radius: 20px;
 
-  width: 348px;
+  width: auto;
   height: 348px;
 
   font-size: 23px;
@@ -237,7 +237,7 @@ img.avatar {
   border: 1px;
   border-radius: 20px;
 
-  width: 348px;
+  width: auto;
   height: 348px;
   margin-top: 40px;
 
@@ -270,7 +270,7 @@ img.avatar {
   padding: 70px;
   border-radius: 20px;
 
-  width: 348px;
+  width: auto;
   height: 352px;
   margin-top: 40px;
 
@@ -287,61 +287,4 @@ img.avatar {
 
 .conteudo-secundario .education ul li {
   margin-top: 10px;
-}
-
-@media (max-width: 690px) {
-  .conteiner {
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
-  }
-  
-  .conteudo-principal {
-    width: 15%;
-    height: 100%;
-  }
-
-  .cabecalho {
-    width: 348px;
-    gap: 50%;
-  }
-
-  .conteudo-principal .projetos {
-    display: flex;
-    flex-direction: column;
-  
-    width: 348px;
-    height: 348px;
-  }
-
-  .conteudo-principal .projeto,
-  .conteudo-principal .titulo-technologies {
-    width: 348px;
-  }
-
-  .conteudo-principal .technologies {
-    width: 348px;
-    height: 348px;
-  }
-
-  .conteudo-principal .technologies ul {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .conteudo-principal .titulo-publicacoes {
-    width: 348px;
-  }
-
-  .conteudo-principal .publicacoes {
-    width: 348px;
-    height: 348px;
-  }
-
-  .conteudo-principal .publicacoes img {
-    width: 110px;
-    height: 110px;
-    margin-bottom: 95px;
-  }
 }

@@ -1,0 +1,55 @@
+@media (max-width: 690px) {
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo-principal {
+        width: 15%;
+        height: 100%;
+    }
+
+    .cabecalho {
+        width: 90vw;
+        gap: 50%;
+    }
+
+    .conteudo-principal .projetos {
+        display: flex;
+        flex-direction: column;
+
+        width: 348px;
+        height: 348px;
+    }
+
+    .conteudo-principal .projeto,
+    .conteudo-principal .titulo-technologies {
+        width: 348px;
+    }
+
+    .conteudo-principal .technologies {
+        width: 348px;
+        height: 348px;
+    }
+
+    .conteudo-principal .technologies ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .conteudo-principal .titulo-publicacoes {
+        width: 348px;
+    }
+
+    .conteudo-principal .publicacoes {
+        width: 348px;
+        height: 348px;
+    }
+
+    .conteudo-principal .publicacoes img {
+        width: 110px;
+        height: 110px;
+        margin-bottom: 95px;
+    }
+}
