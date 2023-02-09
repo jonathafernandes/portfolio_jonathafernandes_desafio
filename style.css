@@ -19,24 +19,27 @@ body {
   font-size: 90%;
   background-color: #22212c;
   color: var(--text-color);
+}
 
-  position: absolute;
+.conteiner {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  margin: 40px 0 40px 0;
+  width: 100vw;
 }
 
 .cabecalho {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  gap: 500px;
+  gap: 80%;
   
   padding: 10px;
-  border: 1px;
+
   border-radius: 20px;
   height: 86px;
-  margin-top: 40px;
-  margin-right: 40px;
-  margin-left: 500px;
+
   background-color: var(--bg-cards);
 }
 
@@ -54,8 +57,6 @@ body {
   flex-direction: row;
   align-items: center;
   margin-top: 31px;
-  margin-right: 40px;
-  margin-left: 500px;
   gap: 30px;
 }
 .conteudo-principal .projetos a {
@@ -67,50 +68,24 @@ body {
   color: var(--text-color-2);
 }
 
-.conteudo-principal .projeto-1 {
+.conteudo-principal .projeto {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 16px;
   padding: 25px;
-  border: 1px;
   border-radius: 20px;
   background-color: var(--bg-cards);
 }
 
-.conteudo-principal .projeto-1 h3 {
+.conteudo-principal .projeto h3 {
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.conteudo-principal .projeto-1 span {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 6px;
-}
-
-.conteudo-principal .projeto-2 {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 25px;
-  border: 1px;
-  border-radius: 20px;
-  background-color: var(--bg-cards);
-}
-
-.conteudo-principal .projeto-2 h3 {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.conteudo-principal .projeto-2 span {
+.conteudo-principal .projeto span {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -123,14 +98,10 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-  border: 1px;
   border-radius: 20px;
   height: 86px;
 
-
   margin-top: 40px;
-  margin-right: 40px;
-  margin-left: 500px;
   background-color: var(--bg-cards);
 }
 
@@ -139,12 +110,9 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 30px;
-  border: 1px;
   border-radius: 20px;
   height: 86px;
   margin-top: 40px;
-  margin-right: 40px;
-  margin-left: 500px;
   background-color: var(--bg-cards);
 }
 
@@ -159,8 +127,6 @@ body {
 .conteudo-principal .technologies ul li {
   border-radius: 20px;
   width: 100px;
-  left: 70px;
-  top: 816px;
   padding: 12px;
 
   background-color: var(--bg-techs);
@@ -175,14 +141,11 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-  border: 1px;
-  border-radius: 20px;
   height: 86px;
-
-
   margin-top: 40px;
-  margin-right: 40px;
-  margin-left: 500px;
+  
+  border-radius: 20px;
+  
   background-color: var(--bg-cards);
 }
 
@@ -190,17 +153,16 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 1px;
   border-radius: 20px;
   height: 206px;
   margin-top: 40px;
-  margin-right: 40px;
-  margin-left: 500px;
+
   background-color: var(--bg-cards);
 }
 
 .conteudo-principal .publicacoes img {
   border-radius: 100%;
+
   width: 140px;
   height: 140px;
   margin-top: 21px;
@@ -210,7 +172,7 @@ body {
   display: flex;
   align-items: center;
   margin-left: 28px;
-  margin-right: 10px;
+  margin-right: 20px;
   margin-bottom: 18px;
 }
 
@@ -229,15 +191,6 @@ body {
 .conteudo-principal .publicacoes-conteudo p span {
   font-size: 85%;
   opacity: 0.5;
-}
-
-.conteudo-secundario {
-  width: 15%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin-bottom: 0;
 }
 
 img {
@@ -261,14 +214,10 @@ img.avatar {
   gap: 15px;
 
   padding: 20px;
-  border: 1px;
   border-radius: 20px;
 
   width: 348px;
   height: 348px;
-  margin-top: 40px;
-  margin-right: 40px;
-  margin-left: 60px;
 
   font-size: 23px;
 
@@ -290,11 +239,7 @@ img.avatar {
 
   width: 348px;
   height: 348px;
-  left: 40px;
-  top: 362px;
   margin-top: 40px;
-  margin-right: 40px;
-  margin-left: 60px;
 
   background-color: var(--bg-cards);
 }
@@ -323,14 +268,11 @@ img.avatar {
 
 .conteudo-secundario .education {
   padding: 70px;
-  border: 1px;
   border-radius: 20px;
 
   width: 348px;
   height: 352px;
   margin-top: 40px;
-  margin-right: 40px;
-  margin-left: 60px;
 
   background-color: var(--bg-cards);
 }
@@ -348,102 +290,38 @@ img.avatar {
 }
 
 @media (max-width: 690px) {
+  .conteiner {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+  }
+  
   .conteudo-principal {
     width: 15%;
     height: 100%;
-    position: relative;
-    left: 0;
-    top: 0;
-    margin-bottom: 0;
   }
 
   .cabecalho {
-    display: block;
-    border: 1px;
-    border-radius: 20px;
-  
     width: 348px;
-    left: 40px;
-    top: 362px;
-    margin-top: 1210px;
-    margin-right: 40px;
-    margin-left: 60px;
-  
-    background-color: var(--bg-cards);
+    gap: 50%;
   }
 
   .conteudo-principal .projetos {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    border: 1px;
-    border-radius: 20px;
   
     width: 348px;
     height: 348px;
-    left: 40px;
-    top: 362px;
-    margin-top: 40px;
-    margin-right: 40px;
-    margin-left: 100px;
-  
-    background-color: #22212c;
   }
 
-  .conteudo-principal .projetos .projeto-1 {
-    border: 1px;
-    border-radius: 20px;
-  
-    width: 348px;
-    height: 348px;
-    left: 40px;
-    top: 362px;
-    margin-right: 40px;
-    margin-left: 60px;
-  
-    background-color: var(--bg-cards);
-  }
-
-  .conteudo-principal .projetos .projeto-2 {
-    border: 1px;
-    border-radius: 20px;
-  
-    width: 348px;
-    height: 348px;
-    left: 40px;
-    top: 362px;
-    margin-right: 40px;
-    margin-left: 60px;
-  
-    background-color: var(--bg-cards);
-  }
-
+  .conteudo-principal .projeto,
   .conteudo-principal .titulo-technologies {
-    align-items: center;
-    border: 1px;
-    border-radius: 20px;
-  
     width: 348px;
-    left: 40px;
-    top: 362px;
-    margin-right: 40px;
-    margin-left: 60px;
-  
-    background-color: var(--bg-cards);
   }
 
   .conteudo-principal .technologies {
-    border: 1px;
-    border-radius: 20px;
-  
     width: 348px;
     height: 348px;
-    left: 40px;
-    top: 362px;
-    margin-right: 40px;
-    margin-left: 60px;
-  
-    background-color: var(--bg-cards);
   }
 
   .conteudo-principal .technologies ul {
@@ -453,43 +331,17 @@ img.avatar {
   }
 
   .conteudo-principal .titulo-publicacoes {
-    border: 1px;
-    border-radius: 20px;
-  
     width: 348px;
-    left: 40px;
-    top: 362px;
-    margin-right: 40px;
-    margin-left: 60px;
-  
-    background-color: var(--bg-cards);
   }
 
   .conteudo-principal .publicacoes {
-    display: flex;
-    border: 1px;
-    border-radius: 20px;
-  
     width: 348px;
     height: 348px;
-    left: 40px;
-    top: 362px;
-    margin-top: 40px;
-    margin-right: 40px;
-    margin-left: 60px;
-    margin-bottom: 40px;
-  
-    background-color: var(--bg-cards);
   }
 
   .conteudo-principal .publicacoes img {
-    border-radius: 100%;
     width: 110px;
     height: 110px;
     margin-bottom: 95px;
-  }
-  
-  .conteudo-principal .publicacoes-conteudo {
-    margin-right: 10px;
   }
 }
