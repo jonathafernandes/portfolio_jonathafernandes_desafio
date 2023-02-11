@@ -33,7 +33,6 @@
 
     .cabecalho {
         width: 90vw;
-        gap: 50%;
     }
 
     .conteudo-principal .projetos {
@@ -71,5 +70,11 @@
     .conteudo-principal .publicacoes img {
         width: 110px;
         height: 110px;
+    }
+}
+
+@media (max-width: 430px) {
+    .cabecalho {
+        gap: 53%;
     }
 }
