@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 80%;
+  gap: 76%;
   
   padding: 10px;
 
@@ -59,6 +59,7 @@ body {
   margin-top: 31px;
   gap: 30px;
 }
+
 .conteudo-principal .projetos a {
   color: var(--text-color);
   transition: text 900ms;
@@ -69,12 +70,12 @@ body {
 }
 
 .conteudo-principal .projeto {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 16px;
-  padding: 25px;
+  padding: 14px;
   border-radius: 20px;
   background-color: var(--bg-cards);
 }
@@ -120,7 +121,7 @@ body {
   list-style: none;
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 1.5%;
   text-align: center;
 }
 
@@ -165,7 +166,7 @@ body {
 
   width: 140px;
   height: 140px;
-  margin-top: 21px;
+  margin-top: 10px;
 }
 
 .conteudo-principal .publicacoes-conteudo {
@@ -193,18 +194,12 @@ body {
   opacity: 0.5;
 }
 
-img {
-  width: 100%;
-}
-
 img.avatar {
   border-radius: 100%;
-  width: 128px;
-  height: 128px;
-  padding: 1.7px;
-  left: 150px;
-  top: 72px;
   border: 2px solid #00ff00;
+  
+  width: 128px;
+  margin-top: 25px;
 }
 
 .conteudo-secundario .perfil {
@@ -213,7 +208,6 @@ img.avatar {
   align-items: center;
   gap: 15px;
 
-  padding: 20px;
   border-radius: 20px;
 
   width: auto;
@@ -233,8 +227,6 @@ img.avatar {
 }
 
 .conteudo-secundario .infos {
-  padding: 70px;
-  border: 1px;
   border-radius: 20px;
 
   width: auto;
@@ -244,17 +236,17 @@ img.avatar {
   background-color: var(--bg-cards);
 }
 
-.conteudo-secundario .infos .infos-ul {
+.conteudo-secundario .infos-ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 50px;
 }
 
 .conteudo-secundario .infos .infos-ul li {
   display: flex;
   gap: 16px;
   align-items: center;
+  margin: 50px 0 0 50px;
 }
 
 .conteudo-secundario .infos .infos-ul li a {
